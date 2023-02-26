@@ -23,7 +23,7 @@ class application(CTk):
     
     def label(self):
         #Background Image setting
-        self.Image = Image.open("Resources/bg.jpg")
+        self.Image = Image.open("Resources/black_bg.jpg")
         self.resizedImage = self.Image.resize((925,605))
         self.backgroundImage = ImageTk.PhotoImage(self.resizedImage)
         self.backgroundImageLabel = Label(self,image=self.backgroundImage)
